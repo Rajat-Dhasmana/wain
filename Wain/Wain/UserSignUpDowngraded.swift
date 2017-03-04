@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UserSignUpDowngraded.swift
 //  Wain
 //
 //  Created by Rajat Dhasmana on 03/03/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class UserSignUpDowngraded: UIViewController {
 
 //MARK: IBOutlets
     

@@ -22,8 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" spacing="127" translatesAutoresizingMaskIntoConstraints="NO" id="WDo-Ys-xtB">
-                                <rect key="frame" x="37.5" y="1" width="300.5" height="611.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="127" translatesAutoresizingMaskIntoConstraints="NO" id="WDo-Ys-xtB">
+                                <rect key="frame" x="37.5" y="20" width="300.5" height="611.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="Ir5-zq-diD">
                                         <rect key="frame" x="0.0" y="0.0" width="300.5" height="360.5"/>
@@ -44,7 +44,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="128" height="121.5"/>
                                                             </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstItem="eGZ-7o-zL5" firstAttribute="height" secondItem="dUc-X4-r6A" secondAttribute="height" id="5Zi-MF-UhF"/>
                                                             <constraint firstItem="eGZ-7o-zL5" firstAttribute="width" secondItem="dUc-X4-r6A" secondAttribute="width" id="Fpe-6R-q5I"/>
@@ -135,14 +135,19 @@
                         <constraints>
                             <constraint firstItem="WDo-Ys-xtB" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1129/1231" id="fvk-75-l8X"/>
                             <constraint firstItem="WDo-Ys-xtB" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="601/750" id="own-eN-GCJ"/>
-                            <constraint firstItem="WDo-Ys-xtB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" multiplier="57/1231" id="uHc-JN-oF6"/>
+                            <constraint firstItem="WDo-Ys-xtB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="uHc-JN-oF6"/>
                             <constraint firstItem="WDo-Ys-xtB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uMO-6R-iv5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="headerLabel" destination="RMl-6p-Lko" id="Wm3-Ki-6f0"/>
+                        <outlet property="verifyEmailButton" destination="aKS-bd-V6b" id="BDq-pb-A6W"/>
+                        <outlet property="verifyPhoneButton" destination="UUC-7v-IGf" id="MBq-Q7-yll"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+            <point key="canvasLocation" x="1191" y="-49"/>
         </scene>
     </scenes>
     <resources>
